@@ -5,3 +5,4 @@
 - You can drag the button to modify the border.
 - Measurements are in the bottom left corner.
 - Hope you enjoy with this program.
+- Have a good day.
