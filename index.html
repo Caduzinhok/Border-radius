@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class='container'>
+        <div>
+            <h1>Border change</h1>
+        </div>
+        <div class='generator' id='box'>
+            <div class='generator__shape' id='shape' style="border-radius: 0% 100% 0% 100%/ 100% 0% 100% 0%;"></div>
+            <input class="generator_handle" id='top' type="range" min="0" max="100" step="0.01" onclick='mudar()' />
+            <input class="generator_handle" id='bottom' type="range" min="0" max="100" step="0.01" onclick='mudar()' />
+            <input class="slider-wrapper generator_handle" id='left' type="range" min="0" max="100" step="0.01"
+                onclick='mudar()' />
+            <input class="slider-wrapper-2 generator_handle" id='right' type="range" min="0" max="100" step="0.01"
+                onclick='mudar()' />
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
