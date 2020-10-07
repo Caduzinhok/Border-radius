@@ -1,8 +1,8 @@
 # Border Radius
 
 ### Description
-- [x] This program give you the percentage to change your radius.
 
+- [x] This program give you the percentage to change your radius.
 - [x] You can drag the button to modify the border.
 - [x] Measurements are in the bottom left corner.
 - [x] Hope you enjoy with this program.
